@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <style>
         .hero-section{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             height: 40vh;
             text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-image: url(https://wallpaper.dog/large/20474624.jpg);
+            background-image: url(https://wallpapercave.com/wp/wp2651931.jpg);
             background-size: cover;
             background-position: bottom;
-            color: white;
+            color: rgb(0, 0, 0);
 
 
         }
@@ -33,6 +36,32 @@
     font-size: 1.1em;
     border: 2px solid black;
 }
+.feature-section{
+    /* border: 2px solid blue; */
+    width:80%;
+    margin: auto;
+}
+.card{
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 20%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 10px 0px #000000a1;
+    transition-duration: 300ms;
+}
+.card:hover{
+    background-color: rgb(127, 255, 204);
+    color: white;
+}
+.card-container{
+    display: flex;
+     /* flex-direction: column; */
+    gap: 50px;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+    padding: 40px;
+}
     </style>
 </head>
 <body>
@@ -46,6 +75,32 @@
                 <p class-"hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odio quaerat magni consequatur magnam facere, tempora nesciunt doloribus eligendi perferendis.</p>
                 <button class="hero-btn">Learn More</button>
 
+            </section>
+            <section class="feature-section">
+                 <div class="card-container">
+                    <div class="card">
+                      
+                        <i class="fa-solid fa-rocket" style="font-size: 50px;color: crimson;"></i>
+                        <h3>Card Title 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur quia consectetur a excepturi sit odit dicta aperiam, earum dignissimos voluptas aspernatur ratione vero repudiandae suscipit! Quia, soluta.</p>
+
+                    </div>
+                    <div class="card">
+                      
+                        <i class="fa-solid fa-rocket" style="font-size: 50px;color: crimson;"></i>
+                        <h3>Card Title 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur quia consectetur a excepturi sit odit dicta aperiam, earum dignissimos voluptas aspernatur ratione vero repudiandae suscipit! Quia, soluta.</p>
+
+                    </div>
+                    <div class="card">
+                      
+                        <i class="fa-solid fa-rocket" style="font-size: 50px;color: crimson;"></i>
+                        <h3>Card Title 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis pariatur quia consectetur a excepturi sit odit dicta aperiam, earum dignissimos voluptas aspernatur ratione vero repudiandae suscipit! Quia, soluta.</p>
+
+                    </div>
+
+                </div>
             </section>
         </article>
     </main>
