@@ -86,10 +86,12 @@ let filter1= smartphoneList.filter(function(phone){
 })
 console.log(filter1);
 
-const samsungPhones =smartphoneList.filter((phone)=> {return phone.brand.toLowerCase().includes(query.toLowerCase)})
-console.log(samsungPhonesList);
+let query = "sam"
+const samsungPhones =smartphoneList.filter((phone)=> {return phone.brand.toLowerCase().includes(query.toLowerCase())})
+console.log(samsungPhones);
+console.log([2,3,4].includes(3));
+// let filter3 = smartp.filter(function(phone){
+//     return phonehoneList.colors.includes("white")
+// })
+// console.log(filter3);
 
-let filter3 = smartp.filter(function(phone){
-    return phonehoneList.colors.includes("white")
-})
-console.log(filter3);

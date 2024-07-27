@@ -46,3 +46,30 @@ return first + " "+last
 
 
 console.log(fullnAME("sayyed","Ameen"));
+
+function addNumsv1(a,b){
+    return[a+b, a*b]
+}
+const res =addNumsv1(545, 4356);
+console.log(res);
+const[sum, prod]=res;
+console.log(sum);
+
+
+const addNums23 =function(a,b){
+    return a+b;
+
+}
+const res2 = addNums23(345, 723);
+console.log(res2);
+
+
+const addNums24 =(a, b)=>{
+    return a=b;
+
+}
+const res3 =addNums24(345 ,723);
+console.log(res3);
+
+
+
